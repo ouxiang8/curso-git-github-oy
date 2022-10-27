@@ -1,2 +1,2 @@
 # curso-git-github-oy
-Repositorio para el curso de aprendizaje de Git y Github
+Repositorio para el curso de Git y Github
