@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ "devel" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "devel" ]
+    branches: [ "main" ]
 
 permissions:
   contents: read
@@ -28,5 +28,5 @@ jobs:
         python -m pip install --upgrade pip
     - name: Have fun
       run: |
-        echo "Hello, friends!"
-        echo "You can execute commands here
+        python execute-me.py
+        bash other/execute-me.sh
